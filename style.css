@@ -1,0 +1,485 @@
+
+
+.a{ background-color: rgb(22, 20, 20);
+    height:50px;
+    border-radius : 52px;
+   position: fixed;
+   position: static;
+   margin-top: 15px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+    
+}
+#aboutus{
+  
+      text-align:left;
+      text-decoration: none;
+      font-size: 25px;
+     font-weight: bold;
+      text-transform: capitalize;
+      margin-top: 20px;
+      margin-left: 75px;
+      display: inline;
+      width: 28px;
+      border-radius: 7px;
+     padding-bottom: 12px;
+     text-decoration: none;
+     color: rgb(255, 240, 240);
+     font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #telegram{
+       
+        text-decoration: dotted;
+        font-size: 25px;
+       font-weight: bold;
+        text-transform: capitalize;
+        margin-top: 20px;
+        margin-left: 50px;
+        display: inline;
+        width: 28px;
+        border-radius: 7px;
+       padding-bottom: 12px;
+       color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+       
+       #sa1{
+        height:550px;
+        margin-top: 20px;
+        border-radius: 52px;
+        background-color: rgb(255, 255, 255);
+        
+       }
+       .sa2{
+        background-color: rgb(255, 255, 255);
+         border-radius: 52px;
+          margin-top: 20px;
+          height:700px;
+          display: flex;
+          flex-wrap: wrap;
+       }
+       #body{
+        background-color: rgb(209, 203, 203);
+       }
+       #discord{
+      
+        text-decoration: none;
+        font-size: 25PX;
+        text-transform: capitalize;
+        margin-top: 20px;
+        margin-left: 50px;
+        display: inline;
+        border-radius: 7px;
+        padding-bottom: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+       }
+     .latest{
+       
+        text-decoration: none;
+        font-size: 25PX;
+        text-transform: capitalize;
+        margin-top: 20px;
+        margin-left: 1px;
+        display: inline;
+        border-radius: 7px;
+        padding-bottom: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+       }
+        .e-mail{
+      
+        text-decoration: none;
+        font-size: 25PX;
+        text-transform: capitalize;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        display: inline;
+        border-radius: 7px;
+        padding-bottom: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+    
+       }
+       #games{        
+         text-decoration: none;
+        font-size: 25PX;
+        text-transform: capitalize;
+        margin-top: 20px;
+        margin-left: 50px;
+        display: inline;
+        border-radius: 7px;
+        padding-bottom: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+       } 
+       #logo{
+      
+        text-decoration: none;
+        font-size: 25PX;
+        text-transform: capitalize;
+        margin-top: 20px;
+        margin-left: 50px;
+        display: inline;
+        border-radius: 7px;
+        padding-bottom: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       #gamesandroid{        
+         text-decoration: none;
+        font-size: 25PX;
+        text-transform: capitalize;
+        margin-top: 20px;
+        margin-left: 50px;
+        display: inline;
+        border-radius: 7px;
+        padding-bottom: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+       } 
+       #subscribe{
+       text-decoration: none;
+        font-size: 25PX;
+        text-transform: capitalize;
+        margin-top: 20px;
+        margin-left: 50px;
+        display: inline;
+        border-radius: 7px;
+        padding-bottom: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        }
+       #gtaV{
+        background-color: rgb(255, 255, 255);
+        display: inline;
+        height: 500px;
+        width: 990px;
+        margin-top: 20px;
+        margin-left:20px;
+        border-radius: 52px;
+        display: inline;
+       }
+       #gta4{
+        background-color: rgb(255, 255, 255);
+        display: inline;
+        height: 500px;
+        width: 600x;
+        margin-top: 20px;
+        margin-left:20px;
+        border-radius: 52px;
+        display: inline;
+       }
+       .S{
+        height: 225px;
+        width: 450px;
+        margin-top:10px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        border-radius: 25px;
+       }
+       
+       #a5{
+        display: inline;
+        height: 40px;
+        margin-left: 25px;
+        border-radius: 5px;
+       }
+       .sad{
+        height: 200px;
+        width: 100px;
+       
+       }
+       .gamespc{
+        background-color: rgb(0, 180, 126);
+        text-align: center;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline;
+        align-content: center;
+        height: 40px;
+        width: 50px;
+        border-radius: 25px;
+        font-size:40px;
+        color: rgb(0, 0, 0);
+        margin-left: 15px;
+        margin-right: 15px;
+        text-decoration: dotted;
+       }
+       #footerdiv{
+        background-color: rgb(34, 34, 34);
+        height: 500px;
+
+       }
+       /*index close*/
+       /*about us*/
+       /*gams pc*/
+       #gta5list{
+         background-color: aliceblue;
+         margin-top: 52px;
+         border-radius: 52px;
+         display: inline;
+       }
+       #gta5img{
+         margin-left: 25px;
+         margin-top: 25px;
+         margin-bottom: 25px;
+         border-radius: 20px;
+         width: 550px;
+         height: 500px;
+       }
+       #description{
+         display: inline;
+       }
+         /*games pc close*/
+/*gta 5*/
+#img{
+  height: 500px;
+  width: 700px;
+  border-radius: 52px;
+  margin-left: 500px;
+  margin-top: 100px;
+  margin-bottom: 52pxpx;
+}
+#descriptiongat5{
+font-size: 30px;
+ align-items: center;
+ text-align: center;
+}
+#pa{
+  text-decoration: line-through;
+  color: darkred;
+}
+#pa1{
+  margin-top: 25px;
+  color: rgb(22, 180, 1);
+}
+#buygtav{
+  background-color: rgb(1, 165, 165);
+  display: inline;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*gta5close*/
+/*gta 4*/
+#imggta4{
+  height: 500px;
+  width: 700px;
+  border-radius: 52px;
+  margin-left: 500px;
+  margin-top: 100px;
+  margin-bottom: 52pxpx;
+}
+#descriptiongat5{
+font-size: 30px;
+ align-items: center;
+ text-align: center;
+}
+#pa4{
+  text-decoration: line-through;
+  color: darkred;
+}
+#pa41{
+  margin-top: 25px;
+  color: rgb(22, 180, 1);
+}
+#buygta4{
+  background-color: rgb(1, 165, 165);
+  display: inline;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*gta4close*/
+/*gta 3*/
+#imggta3{
+  height: 500px;
+  width: 700px;
+  border-radius: 52px;
+  margin-left: 500px;
+  margin-top: 100px;
+  margin-bottom: 52pxpx;
+}
+#descriptiongta3{
+font-size: 30px;
+ align-items: center;
+ text-align: center;
+}
+#pa3{
+  text-decoration: line-through;
+  color: darkred;
+}
+#pa31{
+  margin-top: 25px;
+  color: rgb(22, 180, 1);
+}
+#buygta3{
+  background-color: rgb(1, 165, 165);
+  display: inline;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*gta3close*/
+/*gta vice*/
+#imgvice{
+  height: 500px;
+  width: 700px;
+  border-radius: 52px;
+  margin-left: 500px;
+  margin-top: 100px;
+  margin-bottom: 52pxpx;
+}
+#descriptiongatvice{
+font-size: 30px;
+ align-items: center;
+ text-align: center;
+}
+#pavice{
+  text-decoration: line-through;
+  color: darkred;
+}
+#pavice1{
+  margin-top: 25px;
+  color: rgb(22, 180, 1);
+}
+#buygtavice{
+  background-color: rgb(1, 165, 165);
+  display: inline;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*gtaviceclose*/
+/*gta san*/
+#imgsan{
+  height: 500px;
+  width: 700px;
+  border-radius: 52px;
+  margin-left: 500px;
+  margin-top: 100px;
+  margin-bottom: 52pxpx;
+}
+#descriptiongatsan{
+font-size: 30px;
+ align-items: center;
+ text-align: center;
+}
+#pasan{
+  text-decoration: line-through;
+  color: darkred;
+}
+#pasan1{
+  margin-top: 25px;
+  color: rgb(22, 180, 1);
+}
+#buygtasan{
+  background-color: rgb(1, 165, 165);
+  display: inline;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*gtasanclose*/
+/*minecaft*/
+#imgmine{
+  height: 500px;
+  width: 700px;
+  border-radius: 52px;
+  margin-left: 500px;
+  margin-top: 100px;
+  margin-bottom: 52pxpx;
+}
+#descriptionmine{
+font-size: 30px;
+ align-items: center;
+ text-align: center;
+}
+#pamine{
+  text-decoration: line-through;
+  color: darkred;
+}
+#pamine1{
+  margin-top: 25px;
+  color: rgb(22, 180, 1);
+}
+#buymine{
+  background-color: rgb(1, 165, 165);
+  display: inline;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*minecraftclose*/
+/*websrise*/
+      #webseriseimg{
+        margin-left: 25px;
+         margin-top: 25px;
+         margin-bottom: 25px;
+         border-radius: 20px;
+         width: 550px;
+         height: 500px;
+      } 
+       /*WEBserise close
+      /*aasham*/
+#imgaashram{
+  height: 500px;
+  width: 700px;
+  border-radius: 52px;
+  margin-left: 500px;
+  margin-top: 100px;
+  margin-bottom: 52pxpx;
+}
+#descriptionaashram{
+font-size: 30px;
+ align-items: center;
+ text-align: center;
+}
+#paaashram{
+  text-decoration: line-through;
+  color: darkred;
+}
+#paashram1{
+  margin-top: 25px;
+  color: rgb(22, 180, 1);
+}
+#buyaashram{
+  background-color: rgb(1, 165, 165);
+  display: inline;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*ashramlose*/
+/*trial*/
+.trial{
+  border-radius: 15px;
+  color: black;
+  display: flex;
+  height: 50px;
+  font-size: 40px;
+  text-transform: capitalize;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  display: inline-flex;
+  background-color: aliceblue;
+  margin-left:900px ;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-decoration: none;
+}
+.t1{
+ direction: end;
+ margin-left: 20px;
+ background-color: rgb(5, 141, 0);
+  border: 2px solid greenyellow;
+  border-radius: 15px;
+  text-transform: none; 
+}
+
+   
