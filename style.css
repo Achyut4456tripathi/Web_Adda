@@ -221,6 +221,18 @@
         height: 500px;
 
        }
+       .beta{
+        color: rgb(99, 16, 177);
+       }
+       .Achyut{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       .normal{
+        color: rgb(3, 131, 131);
+       }
+       .developer{
+        color: aqua;
+       }
        /*index close*/
        /*about us*/
        /*gams pc*/
