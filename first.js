@@ -1,3 +1,7 @@
-console.log("hellow");
- let a=59;
-console.log("a+1",a+1)
+let logo = document.querySelector(".icon");
+let ul =  document.querySelector("ul");
+
+icon.addEventListener("click",()=>{
+    ul.classList.toggle("showdata");
+    console.log(ul);
+})

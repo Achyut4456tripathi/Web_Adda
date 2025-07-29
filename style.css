@@ -1,3 +1,83 @@
+*{font-family:'Roboto','sans-serif';
+ 
+}
+#body{
+  background-color: lightblue;
+}
+body{padding: 0%;
+  margin: 0%;
+  background-color: lightblue;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+ul li a:hover,li a .active{
+  color: rgb(18, 221, 18);
+  border-bottom: 2px solid white ;
+}
+ul li{
+  list-style:none;
+  text-decoration:none;
+  margin-inline: 20px;
+  color:white;
+  font: 18px;
+  margin-right: 11px;
+}
+.logo{
+  font-size: 16px;
+  margin-left: 12px;
+}
+.icon{
+  align-items: center;
+  font-size: 30px;
+  margin-right: 12px;
+  display: none;
+}
+#sa1{
+        height:550px;
+        margin-top: 20px;
+        border-radius: 52px;
+        background-color: rgb(255, 255, 255);
+        
+       }
+@media only screen and (max-width:640px){
+   nav ul{
+    display: none;
+   }
+  .icon{
+    display: flex;
+  }
+}
+@media only screen and (max-width:1700px){
+  #sa1{
+    display: none;
+   }
+  #sa2{
+    display: none;
+  }
+  
+}
+.showdata{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60px;
+  background-color: rgb(70, 66, 66);
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+  gap: 22px;
+  height: 240px;
+}
 
 
 .a{ background-color: rgb(22, 20, 20);
@@ -46,13 +126,7 @@
     font-family: Arial, Helvetica, sans-serif;
     }
        
-       #sa1{
-        height:550px;
-        margin-top: 20px;
-        border-radius: 52px;
-        background-color: rgb(255, 255, 255);
-        
-       }
+       
        .sa2{
         background-color: rgb(255, 255, 255);
          border-radius: 52px;
@@ -238,6 +312,7 @@
        .developer{
         color: aqua;
        }
+       
        /*index close*/
        /*about us*/
        /*gams pc*/
