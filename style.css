@@ -47,23 +47,35 @@ ul li{
         background-color: rgb(255, 255, 255);
         
        }
-@media only screen and (max-width:640px){
-   nav ul{
-    display: none;
-   }
-  .icon{
-    display: flex;
-  }
-}
-@media only screen and (max-width:1700px){
-  #sa1{
-    display: none;
-   }
-  #sa2{
-    display: none;
-  }
+        .sa2{
+        background-color: rgb(255, 255, 255);
+         border-radius: 52px;
+          margin-top: 20px;
+          height:700px;
+          display: flex;
+          flex-wrap: wrap;
+       }
+       .S{
+        height: 225px;
+        width: 450px;
+        margin-top:10px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        border-radius: 25px;
+       }
+       .s1{
+        height: 200px;
+        width: 390px;
+        margin-top:10px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        border-radius: 25px;
+        display: none;
+       }
+       
+
   
-}
+
 .showdata{
   display: flex;
   flex-direction: column;
@@ -80,160 +92,19 @@ ul li{
 }
 
 
-.a{ background-color: rgb(22, 20, 20);
-    height:50px;
-    border-radius : 52px;
-   position: fixed;
-   position: static;
-   margin-top: 15px;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-    
-}
 
-#aboutus{
-  
-      text-align:left;
-      text-decoration: none;
-      font-size: 25px;
-     font-weight: bold;
-      text-transform: capitalize;
-      margin-top: 20px;
-      margin-left: 75px;
-      display: inline;
-      width: 28px;
-      border-radius: 7px;
-     padding-bottom: 12px;
-     text-decoration: none;
-     color: rgb(255, 240, 240);
-     font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    #telegram{
-       
-        text-decoration: dotted;
-        font-size: 25px;
-       font-weight: bold;
-        text-transform: capitalize;
-        margin-top: 20px;
-        margin-left: 50px;
-        display: inline;
-        width: 28px;
-        border-radius: 7px;
-       padding-bottom: 12px;
-       color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    }
-       
-       
-       .sa2{
-        background-color: rgb(255, 255, 255);
-         border-radius: 52px;
-          margin-top: 20px;
-          height:700px;
-          display: flex;
-          flex-wrap: wrap;
-       }
-       #body{
-        background-color: rgb(209, 203, 203);
-       }
-       #discord{
+
+   
       
-        text-decoration: none;
-        font-size: 25PX;
-        text-transform: capitalize;
-        margin-top: 20px;
-        margin-left: 50px;
-        display: inline;
-        border-radius: 7px;
-        padding-bottom: 12px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(255, 255, 255);
-       }
-     .latest{
+          
        
-        text-decoration: none;
-        font-size: 25PX;
-        text-transform: capitalize;
-        margin-top: 20px;
-        margin-left: 1px;
-        display: inline;
-        border-radius: 7px;
-        padding-bottom: 12px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color: aliceblue;
-       }
-        .e-mail{
+       
       
-        text-decoration: none;
-        font-size: 25PX;
-        text-transform: capitalize;
-        margin-top: 20px;
-        margin-left: 50px;
-        margin-right: 50px;
-        display: inline;
-        border-radius: 7px;
-        padding-bottom: 12px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color: aliceblue;
-    
-       }
-       #games{        
-         text-decoration: none;
-        font-size: 25PX;
-        text-transform: capitalize;
-        margin-top: 20px;
-        margin-left: 50px;
-        display: inline;
-        border-radius: 7px;
-        padding-bottom: 12px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color: aliceblue;
-       } 
-       #logo{
+        
       
-        text-decoration: none;
-        font-size: 25PX;
-        text-transform: capitalize;
-        margin-top: 20px;
-        margin-left: 50px;
-        display: inline;
-        border-radius: 7px;
-        padding-bottom: 12px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-       }
-       #gamesandroid{        
-         text-decoration: none;
-        font-size: 25PX;
-        text-transform: capitalize;
-        margin-top: 20px;
-        margin-left: 50px;
-        display: inline;
-        border-radius: 7px;
-        padding-bottom: 12px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color: aliceblue;
-       } 
-       #subscribe{
-       text-decoration: none;
-        font-size: 25PX;
-        text-transform: capitalize;
-        margin-top: 20px;
-        margin-left: 50px;
-        display: inline;
-        border-radius: 7px;
-        padding-bottom: 12px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color: aliceblue;
-        }
+       
+      
+       
        #gtaV{
         background-color: rgb(255, 255, 255);
         display: inline;
@@ -254,14 +125,7 @@ ul li{
         border-radius: 52px;
         display: inline;
        }
-       .S{
-        height: 225px;
-        width: 450px;
-        margin-top:10px;
-        margin-left: 15px;
-        margin-bottom: 15px;
-        border-radius: 25px;
-       }
+       
        
        #a5{
         display: inline;
@@ -291,14 +155,7 @@ ul li{
         margin-right: 15px;
         text-decoration: dotted;
        }
-       #footerdiv{
-        background-color: rgb(34, 34, 34);
-        height: 500px;
-       }
-        #footeri{
-          background-color: antiquewhite;
-        }
-
+       
        
        .beta{
         color: rgb(99, 16, 177);
@@ -572,6 +429,28 @@ font-size: 30px;
   border: 2px solid greenyellow;
   border-radius: 15px;
   text-transform: none; 
+}
+@media only screen and (max-width:640px){
+   nav ul{
+    display: none;
+   }
+  .icon{
+    display: flex;
+  }
+  .sa2{
+    display: none;
+  }
+  .s1{
+    display: flex;
+  }
+ 
+}
+@media only screen and (max-width:1700px){
+  #sa1{
+    display: none;
+   }
+   
+  
 }
 
    
