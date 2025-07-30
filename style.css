@@ -51,7 +51,7 @@ ul li{
         background-color: rgb(255, 255, 255);
          border-radius: 52px;
           margin-top: 20px;
-          height:700px;
+          height:auto;
           display: flex;
           flex-wrap: wrap;
        }
@@ -403,7 +403,7 @@ font-size: 30px;
   border-radius: 25px;
   font-family: Arial, Helvetica, sans-serif;
 }
-/*ashramlose*/
+/*ashram  close*/
 /*trial*/
 .trial{
   border-radius: 15px;
@@ -443,12 +443,20 @@ font-size: 30px;
   .s1{
     display: flex;
   }
+  #gta5img{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
  
 }
+
 @media only screen and (max-width:1700px){
   #sa1{
     display: none;
    }
+  
    
   
 }
