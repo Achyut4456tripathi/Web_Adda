@@ -4,6 +4,12 @@
 #body{
   background-color: lightblue;
 }
+#subscribe{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+}
+
 body{padding: 0%;
   margin: 0%;
   background-color: lightblue;
@@ -198,7 +204,7 @@ ul li{
   border-radius: 52px;
   margin-left: 500px;
   margin-top: 100px;
-  margin-bottom: 52pxpx;
+  margin-bottom: 52px;
 }
 #descriptiongat5{
 font-size: 30px;
@@ -442,12 +448,20 @@ font-size: 30px;
   }
   .s1{
     display: flex;
+    width: 350px;
   }
   #gta5img{
     display: flex;
     flex-direction: column;
     width: auto;
     height: auto;
+  }
+  #img{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
   }
  
 }
