@@ -3,20 +3,45 @@
  
   text-decoration: none;
 }
+#checo{
+  display: none;
+  font-size: 25px;
+}
  body{
  background-color: black;
  }
 #login{
+  display: flex;
   background-image: url("netflix.jpg");
   height: 1050px;
   align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+  
          
  
 }
+#butt{
+  color: black;
+  font-size: 25px;
+}
+#email{
+  font-size: 25px;
+}
+#emailint{
+  background-color: gray;
+  font: bold;
+  font-size: 25px;
+}
 #has{
  align-items: center;
- margin: 520px;
+
  font-size: 50px;
+ align-self: center;
+ 
 }
 
 #nephoto{
@@ -482,7 +507,13 @@ font-size: 30px;
     align-items: center;
     margin-left: 30px;
   }
+  #checo{
+    display: flex;
+  }
  
+}
+#has{
+  display: flex;
 }
 
 @media only screen and (max-width:1700px){
