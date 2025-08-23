@@ -43,6 +43,9 @@
  align-self: center;
  
 }
+#has2{
+  display: none;
+}
 
 #nephoto{
   height:fit-content;
@@ -207,18 +210,6 @@ ul li{
        }
        
        
-       .beta{
-        color: rgb(99, 16, 177);
-       }
-       .Achyut{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-       }
-       .normal{
-        color: rgb(3, 131, 131);
-       }
-       .developer{
-        color: aqua;
-       }
        
        /*index close*/
        /*about us*/
@@ -523,6 +514,20 @@ font-size: 30px;
   
    
   
+}
+@media only screen and (max-width:727px){
+  #has{
+    display: none;
+  }
+  #has2{
+    display: flex;
+  }
+  #email{
+    display: none;
+  }
+  ::placeholder{
+    color: black;
+  }
 }
 
    
