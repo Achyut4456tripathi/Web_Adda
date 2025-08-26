@@ -24,6 +24,9 @@
          
  
 }
+#facebook{
+  font-size: 25px;
+}
 #butt{
   color: white;
   font-size: 25px;
@@ -471,6 +474,16 @@ font-size: 30px;
   border: 2px solid greenyellow;
   border-radius: 15px;
   text-transform: none; 
+}
+/*subscribe*/
+#subsbody{
+  background-image: url("netflix.jpg");
+  
+}
+#subs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 @media only screen and (max-width:640px){
    nav ul{
