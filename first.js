@@ -1,4 +1,4 @@
-let logo = document.querySelector(".icon");
+let logo = document.querySelector("icon");
 let ul =  document.querySelector("ul");
 
 icon.addEventListener("click",()=>{
