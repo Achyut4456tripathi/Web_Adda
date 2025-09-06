@@ -1,7 +1,7 @@
-let logo = document.querySelector(".icon");
-let ul =  document.querySelector("ul");
+let logo = document.querySelector("#icon");
+let close = document.querySelector("#close")
 
-icon.addEventListener("click",()=>{
-    ul.classList.toggle("showdata");
-    console.log(ul);
+console.log("helol")
+addEventListener("click",()=>{
+   document.querySelector("#dialogindex").style.display = "flex"
 })

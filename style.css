@@ -1,6 +1,7 @@
 *{font-family:'Roboto','sans-serif';
   color: white;
- 
+ padding: 0;
+ margin: 0;
   text-decoration: none;
 }
 #checo{
@@ -70,6 +71,14 @@ nav{
   justify-content: space-between;
   background-color: black;
   color: white;
+  padding: 25px;
+}
+#dialogindex{
+  width: 100%;
+  font-size: 20px;
+  background-color: black;
+  flex-direction: column;
+  color: black;
 }
 nav ul{
   display: flex;
@@ -91,11 +100,32 @@ ul li{
   font-size: 16px;
   margin-left: 12px;
 }
-.icon{
+#icon{
   align-items: center;
   font-size: 30px;
   margin-right: 12px;
   display: none;
+  border: 0px;
+  background-color: black;
+}
+#close{
+  background-color: black;
+  display: flex;
+  border: 1px,solid,black;
+  font-size:18px ;
+
+  
+}
+.card{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: brown;
+}
+.card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 #sa1{
         height:550px;
@@ -489,7 +519,7 @@ font-size: 30px;
    nav ul{
     display: none;
    }
-  .icon{
+  #icon{
     display: flex;
   }
   .sa2{
