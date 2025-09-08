@@ -13,8 +13,9 @@
  }
 #login{
   display: flex;
-  background-image: url("header.jpeg");
-  height: 1050px;
+  background-image: url("header6.jpeg");
+ background-size: cover;
+  height: 1200px;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -34,7 +35,7 @@
   background-color: rgb(236, 0, 12);
   transition: ease-in-out 1s;
   border: 2px  solid rgb(241, 99, 99);
-  padding: 5px;
+  padding: 15px;
   border-radius: 5px;
 }
 .butt:hover{
@@ -44,13 +45,14 @@
   font-size: 25px;
 }
 #emailint{
-  background-color: rgba(225, 255, 255, 0.5);
+  background-color: rgba(225, 255, 255, 0.2);
   font: bold;
   font-size: 25px;
   border: 2px solid rgba(225, 255, 255, 0.5);
   border-radius: 5px;
-  padding: 5px;
+  padding: 15px;
   margin-top: 10px;
+  padding-right: 200px;
 }
 #has{
  align-items: center;
@@ -546,6 +548,14 @@ font-size: 30px;
   }
  
   
+}
+@media only screen and (max-width:794px){
+#emailint{
+  padding: 5px;
+}
+.butt{
+  padding: 5px;
+}
 }
 
    
