@@ -8,6 +8,7 @@
   display: none;
   font-size: 25px;
 }
+
  body{
  background-color: black;
  }
@@ -485,6 +486,23 @@ font-size: 30px;
   flex-direction: column;
   justify-content: center;
 }
+/*home*/
+.trending-box{
+  background-color: wheat;
+  height: 500px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+.trending-card{
+  height: 100%;
+  background-color: black;
+  width: 200px;
+  background-image: url(Scam\ 1992.webp);
+  background-size: cover;
+}
 @media only screen and (max-width:640px){
    nav ul{
     display: none;
@@ -515,11 +533,14 @@ font-size: 30px;
   #checo{
     display: flex;
   }
- 
-}
-#has{
+ #has{
   display: flex;
 }
+#login{
+  height: 900px;
+}
+}
+
 
 @media only screen and (max-width:1700px){
   #sa1{
