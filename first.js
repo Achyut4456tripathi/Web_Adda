@@ -1,6 +1,6 @@
 let logo = document.querySelector("#icon");
 let close1 = document.querySelector("#close");
-let dialog  = "closed";
+
 console.log("helol");
 function open(){
    document.querySelector("#dialogindex").style.display = "flex"
