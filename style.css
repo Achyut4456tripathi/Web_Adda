@@ -4,19 +4,17 @@
   padding: 0px;
   margin: 0px;
   text-decoration: none;
-  background-color: #122C34;
+  background-color:#272c31cc;
 }
 #checo{
   display: none;
   font-size: 25px;
 }
 
- body{
- background-color: black;
- }
+ 
 #login{
   display: flex;
- background-color:#122C34;
+ background-color:#272c31cc;
  background-size: cover;
   height: 1200px;
   align-items: center;
@@ -28,6 +26,12 @@
   
          
  
+}
+.man1{
+  background-image: url("man.jpg");
+  height: fit-content;
+  width: fit-content;
+  background-size: cover;
 }
 ::placeholder{
     color: black;
@@ -42,9 +46,9 @@
 .butt{
   color: white;
   font-size: 25px;
-  background-color: #4EA5D9;
+  background-color: #ca0101de;
   transition: ease-in-out 1s;
-  border: 2px  solid#4EA5D9;
+  border: 2px  solid #ca0101de;
   padding: 15px;
   border-radius: 5px;
 }
@@ -68,11 +72,21 @@
   background-color:#183153;
 }
 #fa-brands{
-  background-color:#183153;
+  background-color:rgb(26, 22, 22);
+}
+.footer-box{
+   background-color:rgb(26, 22, 22); 
+}
+.footer-li{
+  background-color:rgb(26, 22, 22);
+  padding: 20px;
+}
+.h4{
+   background-color:rgb(26, 22, 22);
 }
 .footer-index{
-  height: 30vh;
-  background-color:#183153;
+  height:fit-content;
+  background-color:rgb(26, 22, 22);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -80,12 +94,19 @@
   flex-wrap: wrap;
   margin-bottom: 1px;
 }
+
 .footer-items{
-  background-color: #183153;
-  padding-top:50px ;
- padding-left: 200px;
- padding-right: 200px;
+background-color: rgb(26, 22, 22);
+transform: matrix3d();
+transition: ease-in-out 1s;
 text-decoration: underline;
+ flex-wrap: wrap;
+}
+#footer-home{
+  margin-bottom: 1px;
+}
+.footer-items:hover{
+  font-size: larger;
 }
 #has{
  align-items: center;
@@ -102,7 +123,12 @@ text-decoration: underline;
 .fa-github{
   margin: 0px;
 font: 35px;
-background-color: #183153;
+background-color: rgb(26, 22, 22);
+display: block;
+text-align: center;
+height: 25px;
+font-size: 20px;
+
 }
 #subscribe{
   color: black;
@@ -163,352 +189,17 @@ ul li{
   font-size:18px ;
 
   
-}
-.card{
-  
-  height: 200px;
-  width: 155px;
-  background-color: brown;
-  border: 2px solid white;
-  display: flex;
-}
-.card-img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+}  
+.footer-items-git{
+background-color: rgb(26, 22, 22);
+display: flex;
+flex-direction: column;
 }
 
-
-.showdata{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 60px;
-  background-color: rgb(70, 66, 66);
-  width: 100%;
-  text-align: center;
-  padding: 0px;
-  gap: 22px;
-  height: 240px;
-}
-main{
-  align-items: center;
-  display: flex;
-}
-
-
-
-
-   
-      
-          
-       
-       
-      
-        
-      
-       
-      
-       
-       
-       
-       
-       #a5{
-        display: inline;
-        height: 40px;
-        margin-left: 25px;
-        border-radius: 5px;
-       }
-       .sad{
-        height: 200px;
-        width: 100px;
-       
-       }
-       .gamespc{
-        background-color: rgb(0, 180, 126);
-        text-align: center;
-        text-decoration: none;
-        text-transform: capitalize;
-        font-family: Arial, Helvetica, sans-serif;
-        display: inline;
-        align-content: center;
-        height: 40px;
-        width: 50px;
-        border-radius: 25px;
-        font-size:40px;
-        color: rgb(0, 0, 0);
-        margin-left: 15px;
-        margin-right: 15px;
-        text-decoration: dotted;
-       }
-       
-       
        
        /*index close*/
-       /*about us*/
-       /*gams pc*/
-       #gta5list{
-         background-color: aliceblue;
-         margin-top: 52px;
-         border-radius: 52px;
-         display: inline;
-       }
-       #gta5img{
-         margin-left: 25px;
-         margin-top: 25px;
-         margin-bottom: 25px;
-         border-radius: 20px;
-         width: 550px;
-         height: 500px;
-       }
-       #description{
-         display: inline;
-       }
-         /*games pc close*/
-/*gta 5*/
-#img{
-  height: 500px;
-  width: 700px;
-  border-radius: 52px;
-  margin-left: 500px;
-  margin-top: 100px;
-  margin-bottom: 52px;
-}
-#descriptiongat5{
-font-size: 30px;
- align-items: center;
- text-align: center;
-}
-#pa{
-  text-decoration: line-through;
-  color: darkred;
-}
-#pa1{
-  margin-top: 25px;
-  color: rgb(22, 180, 1);
-}
-#buygtav{
-  background-color: rgb(1, 165, 165);
-  display: inline;
-  border-radius: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-/*gta5close*/
-/*gta 4*/
-#imggta4{
-  height: 500px;
-  width: 700px;
-  border-radius: 52px;
-  margin-left: 500px;
-  margin-top: 100px;
-  margin-bottom: 52pxpx;
-}
-#descriptiongat5{
-font-size: 30px;
- align-items: center;
- text-align: center;
-}
-#pa4{
-  text-decoration: line-through;
-  color: darkred;
-}
-#pa41{
-  margin-top: 25px;
-  color: rgb(22, 180, 1);
-}
-#buygta4{
-  background-color: rgb(1, 165, 165);
-  display: inline;
-  border-radius: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-/*gta4close*/
-/*gta 3*/
-#imggta3{
-  height: 500px;
-  width: 700px;
-  border-radius: 52px;
-  margin-left: 500px;
-  margin-top: 100px;
-  margin-bottom: 52pxpx;
-}
-#descriptiongta3{
-font-size: 30px;
- align-items: center;
- text-align: center;
-}
-#pa3{
-  text-decoration: line-through;
-  color: darkred;
-}
-#pa31{
-  margin-top: 25px;
-  color: rgb(22, 180, 1);
-}
-#buygta3{
-  background-color: rgb(1, 165, 165);
-  display: inline;
-  border-radius: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-/*gta3close*/
-/*gta vice*/
-#imgvice{
-  height: 500px;
-  width: 700px;
-  border-radius: 52px;
-  margin-left: 500px;
-  margin-top: 100px;
-  margin-bottom: 52pxpx;
-}
-#descriptiongatvice{
-font-size: 30px;
- align-items: center;
- text-align: center;
-}
-#pavice{
-  text-decoration: line-through;
-  color: darkred;
-}
-#pavice1{
-  margin-top: 25px;
-  color: rgb(22, 180, 1);
-}
-#buygtavice{
-  background-color: rgb(1, 165, 165);
-  display: inline;
-  border-radius: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-/*gtaviceclose*/
-/*gta san*/
-#imgsan{
-  height: 500px;
-  width: 700px;
-  border-radius: 52px;
-  margin-left: 500px;
-  margin-top: 100px;
-  margin-bottom: 52pxpx;
-}
-#descriptiongatsan{
-font-size: 30px;
- align-items: center;
- text-align: center;
-}
-#pasan{
-  text-decoration: line-through;
-  color: darkred;
-}
-#pasan1{
-  margin-top: 25px;
-  color: rgb(22, 180, 1);
-}
-#buygtasan{
-  background-color: rgb(1, 165, 165);
-  display: inline;
-  border-radius: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-/*gtasanclose*/
-/*minecaft*/
-#imgmine{
-  height: 500px;
-  width: 700px;
-  border-radius: 52px;
-  margin-left: 500px;
-  margin-top: 100px;
-  margin-bottom: 52pxpx;
-}
-#descriptionmine{
-font-size: 30px;
- align-items: center;
- text-align: center;
-}
-#pamine{
-  text-decoration: line-through;
-  color: darkred;
-}
-#pamine1{
-  margin-top: 25px;
-  color: rgb(22, 180, 1);
-}
-#buymine{
-  background-color: rgb(1, 165, 165);
-  display: inline;
-  border-radius: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-/*minecraftclose*/
-/*websrise*/
-      #webseriseimg{
-        margin-left: 25px;
-         margin-top: 25px;
-         margin-bottom: 25px;
-         border-radius: 20px;
-         width: 550px;
-         height: 500px;
-      } 
-       /*WEBserise close
-      /*aasham*/
-#imgaashram{
-  height: 500px;
-  width: 700px;
-  border-radius: 52px;
-  margin-left: 500px;
-  margin-top: 100px;
-  margin-bottom: 52pxpx;
-}
-#descriptionaashram{
-font-size: 30px;
- align-items: center;
- text-align: center;
-}
-#paaashram{
-  text-decoration: line-through;
-  color: darkred;
-}
-#paashram1{
-  margin-top: 25px;
-  color: rgb(22, 180, 1);
-}
-#buyaashram{
-  background-color: rgb(1, 165, 165);
-  display: inline;
-  border-radius: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-/*ashram  close*/
-/*trial*/
-.trial{
-  border-radius: 15px;
-  color: black;
-  display: flex;
-  height: 50px;
-  font-size: 40px;
-  text-transform: capitalize;
-  align-self: center;
-  align-content: center;
-  align-items: center;
-  display: inline-flex;
-  background-color: aliceblue;
-  margin-left:900px ;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  text-decoration: none;
-}
-.t1{
- direction: end;
- margin-left: 20px;
- background-color: rgb(5, 141, 0);
-  border: 2px solid greenyellow;
-  border-radius: 15px;
-  text-transform: none; 
-}
-/*subscribe*/
-
-/*home*/
+      
+     
 .trending-box{
   
   height: 500px;
@@ -666,7 +357,7 @@ font-size: 30px;
   display: flex;
 }
 #login{
-  height: 900px;
+  height: 1100px;
 }
 }
 
@@ -698,7 +389,7 @@ font-size: 30px;
   #butt{
     margin-left: 110px;
     margin-top: 30px;
-    border: 2px solid black;
+    
   }
  
   
@@ -715,6 +406,13 @@ font-size: 30px;
 .trending-card{
   display: none;
 }
+}
+@media only screen and (max-width:518px){
+  .footer-index{
+    flex-direction: column;
+    font-size: 25px;
+    align-items: center;
+  }
 }
 
    
