@@ -229,7 +229,7 @@ nav{
   margin: 0px;
   border-radius: 10px;
   transition: ease-in-out 0.95s;
-  background-image: url("gta5-trending.jpeg");
+  background-image: url("gta4.jpeg");
 
 }
 .trending-card3{
@@ -253,7 +253,7 @@ nav{
   margin: 0px;
   border-radius: 10px;
   transition: ease-in-out 0.95s;
-  background-image: url("gta5-trending.jpeg");
+  background-image: url("gta4.jpeg");
 
 }
 .trending-card5{
@@ -277,8 +277,7 @@ nav{
   margin: 0px;
   border-radius: 10px;
   transition: ease-in-out 0.95s;
-  background-image: url("gta5-trending.jpeg");
-
+  background-image: url("gta4.jpeg");
 }
 
 .trending-card0:hover{
@@ -316,6 +315,14 @@ nav{
   width: 20vh;
   
 }
+img{
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+.card-img{
+  background-size: cover;
+}
 .btn-container{
 display: flex;
 justify-content: center;
@@ -324,9 +331,12 @@ justify-content: center;
   background-color: crimson;
   color: aliceblue;
   border: 2px solid white;
-  border-radius: 25px;
+  border-radius: 15px;
   padding: 20px;
   font-size: 25px;
+  margin: 55px;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 @media only screen and (max-width:640px){
    nav ul{
