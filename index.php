@@ -41,7 +41,7 @@ TV shows and more
      </h1>
      <a href="check out.html">sas</a>
     
-    <form action="home.php">
+    <form action="index.php">
 
       
       <input type="email" id="emailint" name="email"  placeholder="Email" required>
@@ -109,3 +109,14 @@ TV shows and more
     
 </body>
 </html>
+<?php
+    $server = "localhost";
+    $username = "root";
+    $password = "";
+
+    $con = mysqli_connect($server,$username,$password);
+    
+    $name = $_POST['email'];
+    echo $name ;
+
+?>
